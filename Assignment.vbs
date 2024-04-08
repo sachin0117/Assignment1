@@ -17,7 +17,7 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 
 ' Get the path to the user's desktop folder using the SpecialFolders collection
 Set objShell = CreateObject("WScript.Shell")
-strDesktopPath = objShell.SpecialFolders("Desktop")
+strDesktopPath = objShell.SpecialFolders("Desktop")   
 
 
 ' Check if the folder path exists, if not, create it
